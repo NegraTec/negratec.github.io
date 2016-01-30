@@ -170,12 +170,23 @@
 }
 
 .post-list {
+	padding: 4px;
     margin-left: 0;
+	margin: 4px;
+	width: 300px;
+	height: 250px;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+	box-shadow:3px 2px 5px #CD1076;
+	border-radius: 5px;
+	float: left;
+	img {
+		border-radius: 6px;
+		max-height: 100px;
+		max-width: 100px;
+	}
+	.post-items {
+		margin: 1px;
+	}
 }
 
 .post-meta {
@@ -185,7 +196,7 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 
