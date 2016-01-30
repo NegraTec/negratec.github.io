@@ -1,1 +1,1 @@
-# negratech
+# negratec
