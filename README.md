@@ -27,8 +27,9 @@ E dizer que estamos aqui sim!
 ## Implementações futuras
 - Adicionar sessão para compartilhamento de eventos de cunho tecnológico ou movimento social.
 - Compartilhamento de notícias ou criação de posts das próprias mulheres que adicionaram perfis no site.
+- Área para divulgação de ofertas de emprego.
 
-## Contato
+## Contato, quer ajudar, sugerir idéias?
 
 Roselma Mendes - roselma.mendes@gmail.com
 
