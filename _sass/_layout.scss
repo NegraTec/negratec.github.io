@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 /**
  * Site header
  */
@@ -170,23 +172,76 @@
 }
 
 .post-list {
-	padding: 4px;
-    margin-left: 0;
-	margin: 4px;
-	width: 300px;
-	height: 250px;
-    list-style: none;
-	box-shadow:3px 2px 5px #CD1076;
-	border-radius: 5px;
-	float: left;
-	img {
-		border-radius: 6px;
-		max-height: 100px;
-		max-width: 100px;
-	}
-	.post-items {
-		margin: 1px;
-	}
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  height: 315px;
+  width: 315px;
+  color: #000000;
+  text-align: center;
+  line-height: 1.4em;
+  background-color: #ffffff;
+  box-shadow:3px 2px 5px #CD1076;
+  border-radius: 5px;
+}
+.post-list * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.post-list .figcaption {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.post-list .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  max-width: 100px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  -webkit-transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%);
+}
+.post-list h3 {
+  margin: 0 0 5px;
+  font-weight: 400;
+}
+.post-list h3 span a{
+  display: block;
+  font-size: 0.6em;
+  color: #f39c12;
+  opacity: 0.75;
+}
+i {
+  padding: 10px 5px;
+  display: inline-block;
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  opacity: 0.65;
+}
+.post-list a {
+  text-decoration: none;
+}
+.post-list i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.post-list:hover .background,
+.post-list.hover .background {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .post-meta {

@@ -5,7 +5,16 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+	<div class="icons">
+		<a href="http://linkedin.com/{{ page.linkedin }}"><i class="ion-social-linkedin-outline"></i></a>
+		<a href="https://twitter.com/{{ page.twitter }}"> <i class="ion-social-twitter-outline"></i></a>
+		<a href="https://github.com/{{ page.github }}"> <i class="ion-social-github-outline"></i></a>
+    </div>
+	<p class="post-meta"><b>Stacks:</b> {{page.stacks}}</p>
+	<p class="post-meta"><b>Outras redes:</b> {{page.outras_redes}}</p>
+	<p class="post-meta"><b>Eventos:</b> {{page.eventos}}</p>
+	<p class="post-meta"><b>Pauta política/movimentos sociais:</b> {{page.lutas}}</p>
   </header>
 
   <article class="post-content">

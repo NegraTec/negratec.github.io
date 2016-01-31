@@ -9,6 +9,7 @@ Para início estamos coletando dados dessas mulheres que ficarão disponíveis n
 - Linkedin
 - Github
 - Outras redes sociais
+- Profissão
 - Bio
 - Pautas políticas/sociais em que se involve ou segue
 - Foto (se quiser)

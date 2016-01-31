@@ -1,7 +1,9 @@
 ---
 layout: post
 name:  "Jekyll"
+cargo: engenheira de software
 twitter: jekyll
+stacks: algo
 categories: jekyll update
 image: images/jekyll.jpeg
 ---
