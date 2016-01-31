@@ -1,0 +1,15 @@
+---
+layout: post
+name:  Dandara
+cargo: Tech Lead
+twitter: roselmamendes
+github: roselmamendes
+linkedin: roselmamendes
+outras_redes: aboutme/roselmamendes
+lutas: Feminismo Negro Interseccional, movimento negro
+stacks: javascript, devops, react, rails
+eventos: QCON, BrasilJavascript, Agile Brazil
+categories: mulhernegra
+image: images/dandara.jpg
+---
+Ajudo meu time a tomar as melhores decisões técnicas.
