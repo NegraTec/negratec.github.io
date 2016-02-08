@@ -16,7 +16,8 @@
 	{% endfor %}
 	
     var counter = 0;
-    var numberOfPosts = {{ site.posts | size }};
+    var numberOfPosts = 6;
+	var possibilities = {{site.posts | size}}
 	var randomIndexUsed = [];
     var randomIndex = 0;
 		 
@@ -24,7 +25,7 @@
 	 
     while (counter < numberOfPosts)
     {
-        randomIndex = Math.floor(Math.random() * numberOfPosts);
+        randomIndex = Math.floor(Math.random() * possibilities);
 		if (randomIndexUsed.indexOf(randomIndex) == "-1"){
 
 			postName = postsName[randomIndex];
