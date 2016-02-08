@@ -24,10 +24,8 @@
 	 
     while (counter < numberOfPosts)
     {
-       
-		if (!(randomIndex in randomIndexUsed)){
-
-			randomIndex = Math.floor(Math.random() * numberOfPosts);
+        randomIndex = Math.floor(Math.random() * numberOfPosts);
+		if (randomIndexUsed.indexOf(randomIndex) == "-1"){
 
 			postName = postsName[randomIndex];
 			postFeatured = postsFeatured[randomIndex];
