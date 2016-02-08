@@ -17,23 +17,9 @@ layout: landing
 									<header class="major">
 										<h2>Algumas histórias</h2>
 									</header>
-									<div class="row">
-										{% for post in site.posts %}
-										<div class="4u" style="padding: 50px 0 0 50px;">
-											<section class="box">
-												<a href="#" class="image featured"><img src={% if post.featured %}{{ site.baseurl }}{{ post.featured }} {% else %} {{ site.baseurl }}/assets/images/sem-foto.png {% endif %} alt="" /></a>
-												<header>
-													<h3>{{post.name}}</h3>
-												</header>
-												<p>{{post.cargo}}</p>
-												<footer>
-													<a href="{{site.url}}{{post.url}}" class="button alt">Conheça mais</a>
-												</footer>
-											</section>
-										</div>
-										{% endfor %}
-									</div>
-								</section>
 
+									{% include random-posts.html%}
+								</section>
+							
 						</div>
 					</div>

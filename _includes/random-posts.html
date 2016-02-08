@@ -1,0 +1,54 @@
+<script type="text/javascript">
+	var postsName = [];
+	var postsFeatured = [];
+	var postsCargo = [];
+	var postsUrl = [];
+	
+	{% for post in site.posts %}
+		postsName.push('{{ post.name }}')
+		{% if post.featured %}
+			postsFeatured.push('{{ post.featured }}')
+		{% else %}
+			postsFeatured.push('{{ site.baseurl }}/assets/images/sem-foto.png')
+		{% endif %}
+		postsCargo.push('{{ post.cargo }}')
+		postsUrl.push('{{ post.url }}')
+	{% endfor %}
+	
+    var counter = 0;
+    var numberOfPosts = {{ site.posts | size }};
+	var randomIndexUsed = [];
+    var randomIndex = 0;
+		 
+	document.write('<div class="row">');
+	 
+    while (counter < numberOfPosts)
+    {
+       
+		if (!(randomIndex in randomIndexUsed)){
+
+			randomIndex = Math.floor(Math.random() * numberOfPosts);
+
+			postName = postsName[randomIndex];
+			postFeatured = postsFeatured[randomIndex];
+			postCargo = postsCargo[randomIndex];
+			postUrl = postsUrl[randomIndex];
+
+			document.write('<div class="4u" style="padding: 50px 0 0 50px;">');
+			document.write('<section class="box">');
+			document.write('<a href="#" class="image featured"><img src=' + postFeatured + ' alt="" /></a>');
+			document.write('<header><h3>' + postName + '</h3></header>');
+			document.write('<p>'+postCargo+'</p>');
+			document.write('<footer><a href="{{site.url}}' + postUrl + '" class="button alt">Conheça mais</a></footer>');
+			document.write('</section>');
+			document.write('</div>');
+
+			randomIndexUsed.push(randomIndex);
+			
+			counter++;
+		}
+ 
+    }
+	  document.write('</div>');
+
+</script>
