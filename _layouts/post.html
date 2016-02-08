@@ -10,14 +10,15 @@
 				<section>
 					<header class="major">
 						<h2>{{ page.title }}</h2>
-						<p>Posted {{ page.date | date_to_string }}</p>
+						<p>Atualizado {{ page.date | date_to_string }}</p>
 					</header>
 					<div class="row">
 						<div class="8u -2u">
-							<section class="box">
-								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-								{{ page.content }}
-							</section>
+								<a href="#" class="image featured"><img  style="width: 30%; display: block;"src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+								<a href="http://github.com/{{page.github}}" style="font-size: 2em;" class="icon fa-github-square"></a>
+								<a href="http://twitter.com/{{page.twitter}}" style="font-size: 2em;" class="icon fa-twitter-square"></a>
+								<a href="http://br.linkedin.com/in/{{page.linkedin}}" style="font-size: 2em;" class="icon fa-linkedin-square"></a>
+								<p>{{ page.content }}</p>
 						</div>
 					</div>
 				</section>
