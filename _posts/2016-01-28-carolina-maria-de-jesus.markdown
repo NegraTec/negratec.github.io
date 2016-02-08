@@ -10,6 +10,6 @@ lutas: Feminismo Negro e de classe
 stacks: Haskell, Elixir, programação funcional, Clojure
 eventos: Python Brasil, Code Girl, QCON
 categories: mulhernegra
-image: images/carolina-maria-jesus.jpg
+featured: /assets/images/carolina-maria-jesus.jpg
 ---
 Trabalho muito com linguagens funcionais.

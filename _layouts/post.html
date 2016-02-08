@@ -1,24 +1,29 @@
----
-layout: default
----
-<div class="post">
+{% include header.html %}
+<body>
+{% include nav.html %}
+<div id="main-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="12u">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
-	<div class="icons">
-		<a href="http://linkedin.com/{{ page.linkedin }}"><i class="ion-social-linkedin-outline"></i></a>
-		<a href="https://twitter.com/{{ page.twitter }}"> <i class="ion-social-twitter-outline"></i></a>
-		<a href="https://github.com/{{ page.github }}"> <i class="ion-social-github-outline"></i></a>
-    </div>
-	<p class="post-meta"><b>Stacks:</b> {{page.stacks}}</p>
-	<p class="post-meta"><b>Outras redes:</b> {{page.outras_redes}}</p>
-	<p class="post-meta"><b>Eventos:</b> {{page.eventos}}</p>
-	<p class="post-meta"><b>Pauta política/movimentos sociais:</b> {{page.lutas}}</p>
-  </header>
+			<!-- Blog -->
+				<section>
+					<header class="major">
+						<h2>{{ page.title }}</h2>
+						<p>Posted {{ page.date | date_to_string }}</p>
+					</header>
+					<div class="row">
+						<div class="8u -2u">
+							<section class="box">
+								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+								{{ page.content }}
+							</section>
+						</div>
+					</div>
+				</section>
 
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+			</div>
+		</div>
+	</div>
 </div>
+{% include footer.html %}
