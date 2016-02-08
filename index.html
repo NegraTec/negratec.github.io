@@ -21,7 +21,7 @@ layout: landing
 										{% for post in site.posts %}
 										<div class="4u" style="padding: 50px 0 0 50px;">
 											<section class="box">
-												<a href="#" class="image featured"><img src="{{ site.baseurl }}{{post.featured}}" alt="" /></a>
+												<a href="#" class="image featured"><img src={% if post.featured %}{{ site.baseurl }}{{ post.featured }} {% else %} {{ site.baseurl }}/assets/images/sem-foto.png {% endif %} alt="" /></a>
 												<header>
 													<h3>{{post.name}}</h3>
 												</header>
