@@ -20,8 +20,12 @@
 								<a href="http://br.linkedin.com/in/{{page.linkedin}}" style="font-size: 2em;" class="icon fa-linkedin-square"></a>
 								<p>{{ page.content }}</p>
 								Compartilhe:
-								<a href="" style="font-size: 1em" class="icon fa-facebook"></a>
-								<a href="" style="font-size: 1em" class="icon fa-retweet"></a>
+<!--								<a onclick="openFbPopup()" style="font-size: 1em" class="icon fa-facebook"></a>-->
+								<a id="twitter-btn" style="font-size: 1em" class="icon fa-retweet"></a>
+							
+								<script type="text/javascript">
+										document.getElementById("twitter-btn").href="https://twitter.com/intent/tweet?text=Projeto NegraTec. Empoderamento feminino negro através da tecnologia.&url=" + encodeURI("{{site.url}}{{page.url}}")+ "&hashtags=negraTec,mulherNegraBrilha";
+								</script>
 						</div>
 					</div>
 				</section>
