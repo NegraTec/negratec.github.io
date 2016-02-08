@@ -20,8 +20,20 @@
 								<a href="http://br.linkedin.com/in/{{page.linkedin}}" style="font-size: 2em;" class="icon fa-linkedin-square"></a>
 								<p>{{ page.content }}</p>
 								Compartilhe:
-								<a href="" style="font-size: 1em" class="icon fa-facebook"></a>
-								<a href="" style="font-size: 1em" class="icon fa-retweet"></a>
+
+								<div id="fb-root"></div>
+								<script>(function(d, s, id) {
+								  var js, fjs = d.getElementsByTagName(s)[0];
+								  if (d.getElementById(id)) return;
+								  js = d.createElement(s); js.id = id;
+								  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+								  fjs.parentNode.insertBefore(js, fjs);
+								}(document, 'script', 'facebook-jssdk'));
+								</script>
+							<a class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button" data-desc="Projeto NegraTec. Empoderamento feminino negro através da tecnologia."></a>
+							<br>
+							<a href="https://twitter.com/share" class="twitter-share-button" data-text="Projeto NegraTec. Empoderamento feminino negro através da tecnologia." data-hashtags="negraTec,mulherNegraBrilha,blackGirlsMagic">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 						</div>
 					</div>
 				</section>
