@@ -1,4 +1,4 @@
-# Negra Tec
+# Negra Tec [![Stories in Backlog](https://badge.waffle.io/NegraTec/negratec.github.io.svg?label=backlog&title=Backlog)](http://waffle.io/NegraTec/negratec.github.io)
 
 Negra Tec é um projeto que visa colocar em contato mulheres negras interessadas na área de TI no Brasil.
 
