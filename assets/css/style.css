@@ -290,10 +290,13 @@
 
 	/* Box */
 
-		.box
-		{
+		.box{
 			background: #ffffff;
-			border-bottom: solid 1px #ccc;
+					border-bottom: solid 1px #ccc;
+		}
+
+		.box.cardprofile
+		{
 			width: 374px;
 			height: 531px;
 		}
