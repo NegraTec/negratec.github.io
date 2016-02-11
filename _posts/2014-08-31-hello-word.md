@@ -1,6 +1,6 @@
 ---
-name: Ullamco Laboris minim veniam
-featured: /assets/images/pic03.jpg
+nome: Ullamco Laboris minim veniam
+imagem: /assets/images/pic03.jpg
 layout: post
 cargo: teste
 ---

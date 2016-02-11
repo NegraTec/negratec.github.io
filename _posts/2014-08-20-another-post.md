@@ -1,6 +1,6 @@
 ---
-name: Lorem Ipsum Dolor Sit Amet
-featured: /assets/images/pic02.jpg
+nome: Lorem Ipsum Dolor Sit Amet
+imagem: /assets/images/pic02.jpg
 layout: post
 cargo: teste
 ---

@@ -5,7 +5,7 @@
 	var postsUrl = [];
 	
 	{% for post in site.posts %}
-		postsName.push('{{ post.name }}')
+		postsName.push('{{ post.nome }}')
 		{% if post.featured %}
 			postsFeatured.push('{{ post.featured }}')
 		{% else %}

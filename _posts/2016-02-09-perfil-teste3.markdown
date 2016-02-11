@@ -1,6 +1,6 @@
 ---
 layout: post
-name:  "Perfil Teste 3"
+nome:  "Perfil Teste 3"
 cargo: Entusiasta 
 twitter: 
 github: 
@@ -10,6 +10,6 @@ lutas:
 stacks: 
 eventos: 
 categories: mulhernegra
-featured: 
+imagem: 
 ---
 <p>Perfil de teste 3.</p>
