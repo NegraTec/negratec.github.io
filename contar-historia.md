@@ -12,7 +12,13 @@ Faça um <a class="github-button" href="https://github.com/NegraTec/negratec.git
 Agora em sua máquina, faça
 <code style="font-size: 0.8em; color: #000000; font-family: Courier; background-color: #cdcdcf;">git clone https://github.com/NegraTec/negratec.github.io.git </code>
 <hr>
-Com o projeto na sua máquina, dentro da pasta criada, crie um arquivo <i>.markdown</i> dentro da pasta <i>_posts</i>.
+Com o projeto na sua máquina, dentro da pasta criada, rode o seguinte comando
+<br>
+<code style="font-size: 0.8em; color: #000000; font-family: Courier; background-color: #cdcdcf;">git checkout -b um-nome-para-seu-branch </code>
+<br>
+<br>
+Após isso, crie uma cópia do arquivo <i>2016-02-07-perfil-teste.markdown</i> dentro da pasta <i>_posts</i>.
+<br>
 <br>
 Formato do nome do arquivo: <span class="evidence">YYYY-MM-DD-nome-da-pessoa.markdown</span>. Onde:
 
@@ -24,23 +30,16 @@ Formato do nome do arquivo: <span class="evidence">YYYY-MM-DD-nome-da-pessoa.mar
 
 IMPORTANTE: apesar de ter uma data no nome do arquivo, as histórias são mostradas aleatóriamente. Então não importa se você acabou de mandar ou faz muito tempo que já mandou sua história, a exibição fica por conta do código do site em manter as histórias o mais randomicas possível.
 
-<h3>Dentro do arquivo</h3>
-Marque um bloco de variáveis adicionando três hífens acima e três hífens como abaixo:
-<br>
-<code style="font-size: 0.8em; color: #000000; font-family: Courier; background-color: #cdcdcf;">
----
-<br>
----
-</code>
+<h3>Dentro do arquivo .markdown</h3>
 
-Entre os trios de hífens adicione a variável <span class="evidence">layout: post</span> e em seguida as variáveis:
+Há as seguintes informações que podem ser preenchidas:
 
 <ol style="margin-left: 2em;">
 	<li type="disc">nome</li>
 	<li type="disc">cargo (pode ser profissão ou se colocar como entusiasta)</li>
-	<li type="disc">twitter</li>
-	<li type="disc">github</li>
-	<li type="disc">linkedin</li>
+	<li type="disc">twitter(somente o usuário, não a url)</li>
+	<li type="disc">github (somente o usuário, não a url)</li>
+	<li type="disc">linkedin (somente o usuário, não a url)</li>
 	<li type="disc">outras_redes (redes sociais ou blog/sites pessoais)</li>
 	<li type="disc">lutas (feminismo negro, ativista trans, por exemplo)</li>
 	<li type="disc">tecnologias/linguagens (interesse ou que tenha experiência)</li>
@@ -50,13 +49,40 @@ Entre os trios de hífens adicione a variável <span class="evidence">layout: po
 
 A <b>imagem</b> deve ser um arquivo jpg, jpeg ou png que deverá ficar na pasta <b>assets/images</b>.
 
-Estes campos mencionados não são obrigatórios. Contudo é bom pelo menos ter um nome :P (rosto com lingua para fora).
+Estes campos mencionados não são obrigatórios. Contudo é bom pelo menos ter um nome :P <a style="color: #f2f2f2">(rosto com lingua para fora)</a>.
 
 Embaixo dos três hífens, que fecham o conjunto de campos, coloque um breve resumo sobre você, com que trabalha e/ou gosta. Este resumo também não é obrigatório.
 
 No final o seu arquivo deve está mais ou menos assim:
 
+<div align="center">
 <img src="assets/images/exemplo-perfil-markdown.png" style="width: 340px; height: 250px;"/>
+</div>
 
+Com tudo isso feito, no terminal, dentro da pasta do site, rode os seguintes comandos:
+
+<div id="codeStyler" class="computerGreen">
+  <pre>
+    <code>
+      git add
+      git commit -m "mensagem-informando-o-voce-fez"
+      git pull -r https://github.com/NegraTec/negratec.github.io.git master
+      git push origin nome-do-seu-branch
+      git commit -m "mensagem-informando-o-voce-fez"
+      git pull -r https://github.com/NegraTec/negratec.github.io.git master
+      git push origin nome-do-seu-branch
+    </code>
+  </pre>
+</div>
 
 <h3>Pull Request</h3>
+
+Vá na página do seu fork no Github.
+<br>
+Por exemplo, para minha conta do Github, meu fork seria <b>github.com/roselmamendes/negratec.github.io</b>.
+
+Geralmente quando você tem um branch com mudanças em um projeto <i>forkado</i>, o Github de imediato mostra um botão verde <b>"Create Pull Request"</b>.
+
+Você será levada para uma página para preencher algumas infos para o seu pull request: título e descrição.
+
+Finalize seu pull request que logo após aparecerá na página <b>https://github.com/NegraTec/negratec.github.io/pulls</b>. Em alguns dias estaremos aceitando seu pull request e seu perfil aparecerá aqui no NegraTec.
