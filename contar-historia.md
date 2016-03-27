@@ -1,7 +1,12 @@
 ---
-layout: contar-historia
+layout: pagina-secundaria
 title: "Conte para o mundo quem você é"
+imagem: /assets/images/lelia-falando.jpg
 ---
+<header>
+  <h2>{{page.title}}</h2>
+  <p>Atualmente para adicionar sua história no site é necessário ter <b>uma conta no Github.</b> Em breve vamos colocar outras maneiras de mandar histórias.</p>
+</header>
 
 Vá até a página do repositório NegraTec que se encontra em [github.com/NegraTec](http://github.com/NegraTec/negratec.github.io).
 <hr>
