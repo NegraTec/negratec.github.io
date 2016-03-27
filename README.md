@@ -46,7 +46,7 @@ Em vários setores de nossa sociedade, a comunidade negra sente necessidade de r
 
 ### Pré-requisitos
 
-Ruby
+Ruby 2.0 (se você não possui o Ruby e tem um Linux é recomendado usar o comando `\curl -L https://get.rvm.io | bash -s stable --ruby`)
 
 Bundler
 
