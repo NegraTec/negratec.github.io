@@ -10,7 +10,23 @@
 								<ul class="dates">
 								{% for post in site.posts offset: 0 limit: 5 %}
 									<li>
-										<span class="date">{{ post.date | date: "%B"}} <strong>{{ post.date | date: "%d"}}</strong></span>
+										<span class="date">{% assign m = post.date | date: "%-m" %}
+                      {% case m %}
+                        {% when '1' %}Jan
+                        {% when '2' %}Fev
+                        {% when '3' %}Mar
+                        {% when '4' %}Abr
+                        {% when '5' %}Maio
+                        {% when '6' %}Jun
+                        {% when '7' %}Jul
+                        {% when '8' %}Ago
+                        {% when '9' %}Set
+                        {% when '10' %}Out
+                        {% when '11' %}Nov
+                        {% when '12' %}Dez
+                      {% endcase %}
+                      <strong>{{ post.date | date: "%d"}}</strong>
+                    </span>
 										<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.nome }}</a></h3>
 										{{ post.excerpt }}
 									</li>

@@ -10,7 +10,23 @@
 				<section>
 					<header class="major">
 						<h2>{{ page.title }}</h2>
-						<p>Atualizado {{ page.date | date_to_string }}</p>
+						<p>Atualizado {% assign m = page.date | date: "%-m" %}
+              {{ page.date | date: "%-d" }}
+                      {% case m %}
+                        {% when '1' %}Jan
+                        {% when '2' %}Fev
+                        {% when '3' %}Mar
+                        {% when '4' %}Abr
+                        {% when '5' %}Maio
+                        {% when '6' %}Jun
+                        {% when '7' %}Jul
+                        {% when '8' %}Ago
+                        {% when '9' %}Set
+                        {% when '10' %}Out
+                        {% when '11' %}Nov
+                        {% when '12' %}Dez
+                      {% endcase %}
+            {{page.date | date: "%Y"}}</p>
 					</header>
 					<div class="row">
 						<div class="8u -2u">
