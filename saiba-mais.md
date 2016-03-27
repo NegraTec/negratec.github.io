@@ -16,6 +16,7 @@ E aí que ajudar nesse projeto?
 Tem sugestões?
 
 Você pode criar uma "issue" no projeto do <a href="http://github.com/NegraTec/negratec.github.io">Github</a>.
+Ou enviar um pull request.
 
 Ou entre em contato com <a href="#">roselma.mendes@gmail.com</a>.
 
