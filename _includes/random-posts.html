@@ -4,6 +4,22 @@
 	var postsCargo = [];
 	var postsUrl = [];
 	
+  function montaCartoesPost(randomIndex){
+      postName = postsName[randomIndex];
+			postFeatured = postsFeatured[randomIndex];
+			postCargo = postsCargo[randomIndex];
+			postUrl = postsUrl[randomIndex];
+
+			document.write('<div class="4u" style="padding: 50px 0 0 50px;">');
+			document.write('<section class="box cardprofile">');
+			document.write('<a href="#" class="image featured"><img src=' + postFeatured + ' alt="" /></a>');
+			document.write('<header><h3>' + postName + '</h3></header>');
+			document.write('<p>'+postCargo+'</p>');
+			document.write('<footer><a href="{{site.url}}' + postUrl + '" class="button alt">Conheça mais</a></footer>');
+			document.write('</section>');
+			document.write('</div>');
+  }
+  
 	{% for post in site.posts %}
 		postsName.push('{{ post.nome }}')
 		{% if post.featured %}
@@ -17,9 +33,13 @@
 	
     var counter = 0;
     var numberOfPosts = 6;
-	var possibilities = {{site.posts | size}}
-	var randomIndexUsed = [];
+	  var possibilities = {{site.posts | size}}
+	  var randomIndexUsed = [];
     var randomIndex = 0;
+     
+   if(possibilities < 6){
+     numberOfPosts = possibilities;
+   }
 		 
 	document.write('<div class="row">');
 	 
@@ -28,19 +48,7 @@
         randomIndex = Math.floor(Math.random() * possibilities);
 		if (randomIndexUsed.indexOf(randomIndex) == "-1"){
 
-			postName = postsName[randomIndex];
-			postFeatured = postsFeatured[randomIndex];
-			postCargo = postsCargo[randomIndex];
-			postUrl = postsUrl[randomIndex];
-
-			document.write('<div class="4u" style="padding: 50px 0 0 50px;">');
-			document.write('<section class="box cardprofile">');
-			document.write('<a href="#" class="image featured"><img src=' + postFeatured + ' alt="" /></a>');
-			document.write('<header><h3>' + postName + '</h3></header>');
-			document.write('<p>'+postCargo+'</p>');
-			document.write('<footer><a href="{{site.url}}' + postUrl + '" class="button alt">Conheça mais</a></footer>');
-			document.write('</section>');
-			document.write('</div>');
+			montaCartoesPost(randomIndex);
 
 			randomIndexUsed.push(randomIndex);
 			

@@ -10,5 +10,6 @@ lutas:
 stacks: 
 eventos: 
 imagem: 
+published: false
 ---
 <p>Perfil de teste 2.</p>

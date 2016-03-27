@@ -11,5 +11,6 @@ stacks:
 eventos: 
 categories: mulhernegra
 imagem: 
+published: true
 ---
 <p>Perfil de teste 3.</p>
