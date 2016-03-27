@@ -42,4 +42,26 @@ Em vários setores de nossa sociedade, a comunidade negra sente necessidade de r
 
 - Contato, quer ajudar, sugerir idéias?
 
+## Quer ajudar?
+
+### Pré-requisitos
+
+Ruby
+
+Bundler
+
+### Configurando o ambiente
+
+Faça um `git clone https://github.com/NegraTec/negratec.github.io.git`
+
+Dentro da pasta, em seu computador, execute `bundle install`. Se ocorrer erros na instalação tente usar `gem install jekyll`.
+
+Com esses passos, você deve conseguir rodar `bundle exec jekyll serve --watch`. Este comando subirá o servidor permitindo acessar o site pela url `http://locahost:4000`.
+
+Agora você é capaz de fazer as mudanças que deseja.
+
+Este site foi construido usando o [Jekyll](https://jekyllrb.com/) e Github Pages.
+
+Mais informações você pode encontrar no site do Jekyll e na documentação da linguagem de template [Liquid](https://github.com/Shopify/liquid/wiki).
+
 Roselma Mendes - roselma.mendes@gmail.com
