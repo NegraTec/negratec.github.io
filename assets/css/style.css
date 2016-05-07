@@ -289,7 +289,7 @@
 					padding: 0 1em 0 1em;
 				}
 			.header-img {
-				padding-top: 4em;
+				padding-top: 0em;
 			}
 			.header-img img {
 				width: 100%;
@@ -888,4 +888,37 @@ code {
 .computerGreen {
   background-color: #000000;
   color: green;
+}
+
+#topbar {
+    position:fixed;
+    top: -60px; /* has to be around the height of the bar or more. */
+    display: block;
+    z-index: 99999;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    background-color: #c0392b;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 6px -6px black;
+    transition: top 1s;
+}
+
+/* Hiding the checkbox */
+#toggleTop {
+    display: none;
+}
+
+#btNot {
+    float: right;
+    display: inline-block;
+}
+
+#toggleTop:checked + #topbar {
+    transition: top 1s;
+    top:0px;
 }
