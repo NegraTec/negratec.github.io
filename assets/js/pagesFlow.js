@@ -11,7 +11,7 @@ $(function(){
         crossDomain: true,
         data : $('#cadastro').serialize(),
         success: function(data, textStatus, xmlHttpRequest){
-          $("#resposta").append("Usuária cadastrada com sucesso! Cheque seu email para confirmar a criação da conta :) (rosto sorrindo)");
+           window.location.href = "login.html";
         },
         error: function(xmlHttpRequest, textStatus, errorThrown){
           var result = $.parseJSON(xmlHttpRequest.responseText);
@@ -23,4 +23,9 @@ $(function(){
         }
       });
     });
+    
+    $("#login").submit(function(event){
+      event.preventDefault();
+    });
+  
 });
