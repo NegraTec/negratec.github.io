@@ -1,0 +1,31 @@
+---
+layout: pagina-secundaria
+title: "Mulher negra cadastre-se"
+imagem: /assets/images/enedina.jpg
+---
+
+<header>
+    <h2>{{page.title}}</h2>
+    <p>Enedina Alves Marques (à esquerda na foto a direita) a primeira mulher negra formada em engenheira no sul do Brasil. </p>
+</header>
+
+ 
+  <form id="cadastro" method="post" action="http://localhost:8000/rest-auth/registration/">
+
+    <label id="resposta"></label>
+
+    <label>Usuária:</label> <input type="text" required="true" name="username"/>
+
+    <label>Senha:</label> <input type="password" required="true" name="password1"/>
+
+    <label>Confirmar senha:</label> <input type="password" required="true" name="password2"/>
+
+    <label>Email:</label> <input type="email" required="true" name="email"/>
+
+    <button class="button big" type="submit">Salvar</button>
+  </form>
+  
+  
+
+
+
