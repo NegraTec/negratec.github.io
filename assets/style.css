@@ -1,0 +1,17 @@
+.landing{
+  font-family: "Open Sans";
+}
+
+#banner{
+  height: 300px;
+  width: 100%;
+}
+
+#titulo { 
+  position: absolute;
+    top: 70px;
+    left: 750px;
+    font-size: 70px;
+    font-family: "Open Sans";
+    color: indianred; 
+}
