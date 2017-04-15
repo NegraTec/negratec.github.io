@@ -5,8 +5,15 @@
 **Você precisa**
 
 - Docker
+- Clonar esse repositório em sua máquina: ```git clone git@github.com:NegraTec/negratec.github.io.git```
 
 **Executando**
 
-1. Construa a imagem rodando o comando ```docker build -t negratec-portal .```
-2. Rode ```docker run -p 4000:4000 -t negratec-portal bundle exec jekyll serve --host 0.0.0.0```
+Inicia o site localmente:
+```sh scripts/start.sh```
+
+Inicia o site em modo watch (mudanças no codigo serão mostradas no site em tempo real) localmente:
+```sh scripts/start-watch.sh```
+
+Pára a execução do site localmente:
+```sh scripts/stop.sh```
