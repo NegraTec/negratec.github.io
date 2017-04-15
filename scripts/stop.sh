@@ -1,1 +1,1 @@
-docker stop negratec-portal && docker rm negratec-portal
+docker stop negratec-portal

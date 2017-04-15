@@ -1,0 +1,55 @@
+---
+---
+
+#banner-img{
+  height: 300px;
+}
+
+#banner-titulo { 
+  position: absolute;
+  top: 70px;
+  left: 700px;
+  font-size: 70px;
+  color: indianred; 
+}
+
+.banner-descricao-site {
+  color: white;
+  display: none;
+  top: 150px;
+  left: 200px;
+  right: 200px;
+  position: absolute;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.banner:hover .banner-descricao-site{
+  display: block;
+}
+
+.banner:hover #banner-titulo{
+  display: none;
+}
+
+.side-bar {
+  border-bottom: 8px solid indianred;
+  border-radius: 5px;
+  padding-bottom: 20px;
+  p{
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
+
