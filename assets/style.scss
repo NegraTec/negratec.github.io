@@ -32,6 +32,10 @@
   margin-bottom: 10px;
 }
 
+.main-section span a, .main-section-2  span a{
+    color: black;
+}
+
 @media all and (min-width: 420px){
   .main-section{
   background-color: #B7521E;
@@ -51,7 +55,7 @@
   }
 }
   
-.main-section-item, .main-section-item-2{
+.main-section-item{
     margin: 30px !important;
     padding-top: 10px !important;
   }
