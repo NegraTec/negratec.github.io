@@ -1,15 +1,15 @@
 {% include header.html %}
 <body>
   <div class="container">
-    {% include banner.html %}
     {% include nav-bar.html %}
-    {% include main-section.html %}
+    {% include banner.html %}
     {{content}}
-    </div>
+    {% include footer.html %}
+  </div>
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Compiled and minified JavaScript -->
-  <script src="assets/js/materialize.min.js"></script>
+  <script src="/assets/js/materialize.min.js"></script>
 </body>
 </html>

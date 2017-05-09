@@ -1,15 +1,18 @@
 [{
   "titulo": "ViolênciaS Contra as Mulheres",
   "link": "https://medium.com/@roselmamendes/viol%C3%AAncias-contra-as-mulheres-ed44b0dc8711",
-  "imagem":"/assets/images/elza-soares.jpeg"
+  "imagem":"/assets/images/elza-soares.jpeg",
+  "categoria": "Feminismo Interseccional"
 },
 {
   "titulo": "[Python] Construindo aplicações web seguras [com Flask]",
   "link": "https://medium.com/@roselmamendes/python-construindo-aplica%C3%A7%C3%B5es-web-seguras-com-flask-fe8989e282ac",
-  "imagem":"/assets/images/mr-robot.gif"
+  "imagem":"/assets/images/mr-robot.gif",
+  "categoria": "Tecnologia, Segurança"
 },
 {
   "titulo": "Todas as pessoas deveriam saber o que é Segurança Digital",
   "link": "https://medium.com/@roselmamendes/todas-as-pessoas-deveriam-saber-o-que-%C3%A9-seguran%C3%A7a-digital-59ea745a4763",
-  "imagem": "/assets/images/menina-negra-chiclete.jpeg"
+  "imagem": "/assets/images/menina-negra-chiclete.jpeg",
+  "categoria": "Tecnologia, Segurança"
 }]

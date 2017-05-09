@@ -3,72 +3,72 @@
 //http://www.colorcombos.com/color-schemes/386/ColorCombo386.html
 #banner-img{
   height: 300px;
+  border-radius: 20px;
+}
+
+.badge-nav-bar{
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 20px;
+  color: #f8bbd0;
+  float: right;
+  margin-left: 10px;
+  background-color: #8d6e63;
+}
+
+.badge-posts{
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 20px;
+  color: #f8bbd0;
+  float: right;
+  background-color: #8d6e63;
+  margin-right: 10px;
+  font-size: 10px;
 }
 
 .nav-bar {
-  border-bottom: 8px solid #B7521E;
-  background-color: #E4B04A;
-  border-radius: 10px;
   padding-top: 20px;
-  
-  p{
-    text-align: center;
-  }
-  
-  img{
-    width: 100px;
-    height: 100px;
-    border-radius: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+  padding-right: 10px;
 }
 
 .button-plus{
-  background-color: #2A2C05 !important;
-  color: white;
+  background-color: #ffccbc !important;
+  color: #8d6e63 !important;
   margin-bottom: 10px;
 }
 
-.main-section span a, .main-section-2  span a{
-    color: black;
+.main-section .posts{
+  padding-left: 15px;
+  color: #8d6e63;
+  font-size: 20px;
 }
 
-@media all and (min-width: 420px){
-  .main-section{
-  background-color: #B7521E;
-  border-radius: 10px;
-  h5{
-    margin-left: 20px;
-    color: #2A2C05;
-  }
-}
+.footer{
+  border-top: 5px dashed #8d6e63;
 
-.main-section-2{
-  background-color: #E4B04A;
-  border-radius: 10px;
-  h5{
-    margin-left: 20px;
-    color: #2A2C05;
-  }
-}
-  
-.main-section-item, .main-section-item-2{
-    margin: 30px !important;
-    padding-top: 10px !important;
+  p{
+    text-align: center;
+    color: #8d6e63;
   }
 }
 
 @media all and (max-width: 420px){
-  .main-section-item{
-    background-color: #B7521E !important;
+
+  li{
+    border: 2px solid #8d6e63;
+    border-radius: 10px;
+    padding: 5px;
   }
-  
-  .main-section-item-2{
-    background-color: #E4B04A !important;
+
+  .main-section .posts{
+    font-size: 20px;
   }
+
+  .badge-posts{
+    display: none;
+  }
+
 }
 
 

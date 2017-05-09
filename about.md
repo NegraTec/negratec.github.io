@@ -1,6 +1,6 @@
 ---
-layout: landing-about
-title: About
+layout: landing
+title: Sobre
 permalink: /about/
 ---
 

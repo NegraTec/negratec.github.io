@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Kendrick Lamar",
+    "embed": '<iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A7Lb4aeK6E6QjNBIxxHQGek" width="200" height="100" frameborder="0" allowtransparency="true"></iframe>',
+    "link": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+  },
+  {
+    "nome": "Jaden Smith",
+    "embed": '<iframe width="200" height="100" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/314946551&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>',
+    "link": ""
+  },
+  {
+    "nome": "SZA",
+    "embed": '<iframe width="200" height="100" src="https://www.youtube.com/embed/ITZXgn81uyk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>',
+    "link": "https://www.youtube.com/results?search_query=sza"
+  },
+  {
+    "nome": "Willow Smith",
+    "embed": '<iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A23AiIIdOpW7sCx2Dtp5IFN" width="200" height="100" frameborder="0" allowtransparency="true"></iframe>',
+    "link": "https://open.spotify.com/artist/3rWZHrfrsPBxVy692yAIxF"
+  }
+]
