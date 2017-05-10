@@ -1,5 +1,10 @@
 [
   {
+    "nome": "Sevdaliza",
+    "embed": '<iframe width="200" height="100" src="https://www.youtube.com/embed/9t7SclAXoQw" frameborder="0" allowfullscreen></iframe>',
+    "link": "https://open.spotify.com/artist/5MraexJKZDrQYzS98kNwie"
+  },
+  {
     "nome": "Kendrick Lamar",
     "embed": '<iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A7Lb4aeK6E6QjNBIxxHQGek" width="200" height="100" frameborder="0" allowtransparency="true"></iframe>',
     "link": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
