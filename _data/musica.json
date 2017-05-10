@@ -10,7 +10,7 @@
     "nome": "Kendrick Lamar",
     "sobre": 'Kendrick Lamar',
     "sobre-idioma": "pt",
-    "embed": '<iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A7Lb4aeK6E6QjNBIxxHQGek" width="300" height="315" frameborder="0" allowtransparency="true"></iframe>',
+    "embed": '<iframe width="560" height="315" src="https://www.youtube.com/embed/NLZRYQMLDW4" frameborder="0" allowfullscreen></iframe>',
     "link": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
   },
   {
@@ -31,7 +31,7 @@
     "nome": "Willow Smith",
     "sobre": "Willow Smith",
     "sobre-idioma": "pt",
-    "embed": '<iframe src="https://embed.spotify.com/?uri=spotify%3Atrack%3A23AiIIdOpW7sCx2Dtp5IFN" width="300" height="315" frameborder="0" allowtransparency="true"></iframe>',
+    "embed": '<iframe width="560" height="315" src="https://www.youtube.com/embed/YXL4GagVBZs" frameborder="0" allowfullscreen></iframe>',
     "link": "https://open.spotify.com/artist/3rWZHrfrsPBxVy692yAIxF"
   }
 ]

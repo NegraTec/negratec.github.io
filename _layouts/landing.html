@@ -1,8 +1,10 @@
 {% include header.html %}
 <body>
   <div class="container">
-    {% include nav-bar.html %}
-    {% include banner.html %}
+    {% include nav-bar-content.html %}
+    {% if page.url == '/' %}
+      {% include banner.html %}
+    {% endif %}
     {{content}}
     {% include footer.html %}
   </div>

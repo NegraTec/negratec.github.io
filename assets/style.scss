@@ -1,30 +1,26 @@
 ---
 ---
 //http://www.colorcombos.com/color-schemes/386/ColorCombo386.html
-#banner-img{
+
+$cor-fundo-nav-bar: #8d6e63;
+$cor-texto-nav-bar: #f8bbd0;
+$cor-fundo-botao:  #ffccbc;
+$cor-linha-contorno-nav-bar: grey;
+
+.banner-img{
   height: 300px;
   border-radius: 20px;
 }
 
-.badge-nav-bar{
-  border: 1px solid grey;
-  padding: 10px;
+.banner-img-content{
   border-radius: 20px;
-  color: #f8bbd0;
-  float: right;
-  margin-left: 10px;
-  background-color: #8d6e63;
+  margin-top: 8px;
+  height: 100%;
+  margin-left: 5px;
 }
 
-.badge-posts{
-  border: 1px solid grey;
-  padding: 5px;
-  border-radius: 20px;
-  color: #f8bbd0;
-  float: right;
-  background-color: #8d6e63;
-  margin-right: 10px;
-  font-size: 10px;
+nav, .nav-wrapper{
+  border-radius: 10px;
 }
 
 .nav-bar {
@@ -32,20 +28,41 @@
   padding-right: 10px;
 }
 
+.badge-nav-bar{
+  border: 1px solid $cor-linha-contorno-nav-bar;
+  padding: 10px;
+  border-radius: 20px;
+  color: $cor-texto-nav-bar;
+  float: right;
+  margin-left: 10px;
+  background-color: $cor-fundo-nav-bar;
+}
+
+.badge-posts{
+  border: 1px solid $cor-linha-contorno-nav-bar;
+  padding: 5px;
+  border-radius: 20px;
+  color: $cor-texto-nav-bar;
+  float: right;
+  background-color: $cor-fundo-nav-bar;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
 .button-plus{
-  background-color: #ffccbc !important;
-  color: #8d6e63 !important;
+  background-color: $cor-fundo-botao !important;
+  color: $cor-fundo-nav-bar !important;
   margin-bottom: 10px;
 }
 
 .main-section .posts{
   padding-left: 15px;
-  color: #8d6e63;
+  color: $cor-fundo-nav-bar;
   font-size: 20px;
 }
 
 .footer{
-  border-top: 5px dashed #8d6e63;
+  border-top: 5px dashed $cor-fundo-nav-bar;
   text-align: center;
 
   img{
@@ -54,7 +71,7 @@
   }
 
   p{
-    color: #8d6e63;
+    color: $cor-fundo-nav-bar;
   }
 }
 
@@ -75,9 +92,13 @@
   float: left;
 
   p{
-    color: #8d6e63;
+    color: $cor-fundo-nav-bar;
     text-align: justify;
   }
+}
+
+.videoWrapper{
+  display: none;
 }
 
 @media all and (max-width: 420px){
@@ -88,14 +109,6 @@
       float: none;
       width: 50%;
       height: 30%;
-      border-radius: 10px;
-    }
-  }
-
-  .sobre-texto{
-    p{
-      color: #8d6e63;
-      text-align: justify;
     }
   }
 
@@ -104,7 +117,7 @@
   }
 
   li{
-    border: 2px solid #8d6e63;
+    border: 2px solid $cor-fundo-nav-bar;
     border-radius: 10px;
     padding: 5px;
   }
@@ -114,6 +127,44 @@
   }
 
   .badge-posts{
+    display: none;
+  }
+
+  .musica-item-medium{
+    display: none !important;
+  }
+
+  // From https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php
+  .videoWrapper {
+    display: inherit;
+    position: relative;
+    padding-bottom: 56.25% !important; /* 16:9 */
+    padding-top: 25px !important;
+    height: 0;
+    margin-bottom: 20px;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  //-------------------------------------
+
+  .banner-img-content{display: none}
+
+  .nav-wrapper{
+    background: url('/assets/images/black-girl-magic.jpeg') center no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+  }
+
+  i{
+    background-color: rgba(140, 114, 114, 0.42);
+  }
+
+  .banner{
     display: none;
   }
 
