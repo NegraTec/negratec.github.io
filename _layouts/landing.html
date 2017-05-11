@@ -1,13 +1,15 @@
 {% include header.html %}
 <body>
+
   <div class="container">
     {% include nav-bar-content.html %}
     {% if page.url == '/' %}
-      {% include banner.html %}
+    {% include banner.html %}
     {% endif %}
     {{content}}
     {% include footer.html %}
   </div>
+
 
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -1,7 +1,7 @@
 <div class="row main-section">
   <ul>
   {% for post in site.data.roselma-posts %}
-    <li style="margin-bottom: 15px">
+    <li class="post-item" style="margin-bottom: 15px">
       <a class="posts" href="{{post.link}}" target="_blank">{{post.titulo}}</a>
       <a class="badge-posts">{{post.categoria}}</a>
     </li>
@@ -12,3 +12,8 @@
   <a class="btn button-plus" href="http://medium.com/@roselmamendes" target="_blank">medium@roselmamendes</a>
 
 </div>
+<script>
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>

@@ -3,12 +3,36 @@ layout: landing
 title: Tecnologia Negra
 permalink: /tec-negra/
 ---
-<p style="color: #8d6e63;">Conteúdo encontrado pela rede sobre tecnologia negra e feminina. Este conteúdo não é de minha autoria.</p>
+<p style="color: #8d6e63;">Conteúdo encontrado pela rede sobre tecnologia negra e feminina. <b>Este conteúdo não é de minha autoria.</b></p>
 <div class="row">
+
+<div class="slider">
+    <ul class="slides">
 {% for femNegra in site.data.feminina-negra %}
-  <div class="col m12 s12 card medium">
-    <div class="card-image"> <img src="{{femNegra.imagem}}" /> </div>
-    <span class="card-title">{{femNegra.titulo}}<a href="{{femNegra.link}}"></a></span>
-  </div>
+    
+      <li>
+        <img src="{{femNegra.imagem}}">
+        <div class="caption center-align">
+          <h3><a class="pink-text text-lighten-4" href="{{femNegra.link}}" target="_blank">{{femNegra.titulo}}</a></h3>
+        </div>
+      </li>
+    
 {% endfor %}
+    </ul>
 </div>
+
+</div>
+<div class="row main-section">
+  <ul>
+  {% for femNegra in site.data.feminina-negra %}
+    <li class="post-item" style="margin-bottom: 15px">
+      <a class="posts" href="{{femNegra.link}}" target="_blank">{{femNegra.titulo}}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+<script>
+     $(document).ready(function(){
+          $('.slider').slider({indicators: false});
+        });
+</script>
