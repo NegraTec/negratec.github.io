@@ -23,7 +23,9 @@
     </ul>
   </div>
 </nav>
-<h4>{{page.title}}</h4>
+{% if page.title %}
+  <h4>{{page.title}}</h4>
+{% endif %}
 <script>
   $( document ).ready(function(){
     $(".button-collapse").sideNav({

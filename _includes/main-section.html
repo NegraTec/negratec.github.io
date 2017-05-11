@@ -1,5 +1,11 @@
 <div class="row main-section">
   <ul>
+    {% for post in site.posts %}
+    <li class="post-item" style="margin-bottom: 15px">
+      <a class="posts" href="{{post.url}}" target="_blank">{{post.title}}</a>
+      <a class="badge-posts">{{post.categories}}</a>
+    </li>
+    {% endfor %}
   {% for post in site.data.roselma-posts %}
     <li class="post-item" style="margin-bottom: 15px">
       <a class="posts" href="{{post.link}}" target="_blank">{{post.titulo}}</a>
@@ -7,6 +13,7 @@
     </li>
 
   {% endfor %}
+
   </ul>
 
   <a class="btn button-plus" href="http://medium.com/@roselmamendes" target="_blank">medium@roselmamendes</a>
