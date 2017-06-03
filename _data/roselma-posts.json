@@ -1,4 +1,11 @@
-[{
+[
+  {
+  "titulo": "Execism: praticando programação",
+  "link": "https://medium.com/@roselmamendes/exercism-praticando-programa%C3%A7%C3%A3o-82fda9ac7b13",
+  "imagem":"https://cdn-images-1.medium.com/max/2000/1*Ig3IfrXDKux_1Zz1crfb8Q.png",
+  "categoria": "programação, exercism.io"
+},
+  {
   "titulo": "ViolênciaS Contra as Mulheres",
   "link": "https://medium.com/@roselmamendes/viol%C3%AAncias-contra-as-mulheres-ed44b0dc8711",
   "imagem":"/assets/images/elza-soares.jpeg",
