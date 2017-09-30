@@ -12,6 +12,10 @@ $cor-texto-post: #424242;
   width: 100%;
 }
 
+#mobile-evento{
+  display: none;
+}
+
 .post{
   font-family: "Times New Roman", Times, serif;
   color: $cor-texto-post;
@@ -160,6 +164,16 @@ nav, .nav-wrapper{
 
 @media all and (max-width: 420px){
 
+  #normal-evento{
+    display: none;
+  }
+
+  #mobile-evento{
+    display: block;
+    img{
+      width: 100%;
+    }
+  }
   .sobre{
     display: block;
     img{
@@ -226,5 +240,3 @@ nav, .nav-wrapper{
   }
 
 }
-
-

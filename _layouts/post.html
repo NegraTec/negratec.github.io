@@ -21,7 +21,9 @@
 
 <div class="container">
     {% include nav-bar-content.html %}
-    <img class="img-post" src="{{page.image}}"/>
+    {% if page.image %}
+      <img class="img-post" src="{{page.image}}"/>
+    {% endif %}
     <div class="post">
         {{content}}
         <div>
