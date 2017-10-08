@@ -1,35 +1,17 @@
 [
   {
-  "titulo": "Mulheres Negras na Computação",
-  "link": "https://medium.com/@roselmamendes/mulheres-negras-na-computa%C3%A7%C3%A3o-35e4ec899a5f",
-  "categoria": "Mulher Negra, Mulher Negra Tecnologia, Computação, Racismo, Feminismo Negro"
-},
-{
-"titulo": "Criando meu próprio 'agrupador' de links com metatags",
-"link": "https://medium.com/@roselmamendes/criando-meu-pr%C3%B3prio-agrupador-de-links-com-metatags-2025d6656625",
-"categoria": "Javascript, metatags, SEO, Web Scraping, Web Crawling"
-},
+    "titulo": "Entrega Contínua, o que aprendi — capítulo 2",
+    "link": "https://medium.com/@roselmamendes/entrega-cont%C3%ADnua-o-que-aprendi-cap%C3%ADtulo-2-2cfbcb09c8bf",
+    "categoria": "Entrega Contínua, Circleci, Heroku, Mulher Negra, Integração Contínua"
+  },
   {
-  "titulo": "Execism: praticando programação",
-  "link": "https://medium.com/@roselmamendes/exercism-praticando-programa%C3%A7%C3%A3o-82fda9ac7b13",
-  "imagem":"https://cdn-images-1.medium.com/max/2000/1*Ig3IfrXDKux_1Zz1crfb8Q.png",
-  "categoria": "programação, exercism.io"
-},
+    "titulo": "Entrega Contínua, o que aprendi — capítulo 1",
+    "link": "https://medium.com/@roselmamendes/entrega-cont%C3%ADnua-o-que-aprendi-cap%C3%ADtulo-1-a85c3b9625b5",
+    "categoria": "Entrega Contínua, Automação, Dev CLI, Mulher Negra, Tecnologia"
+  },
   {
-  "titulo": "ViolênciaS Contra as Mulheres",
-  "link": "https://medium.com/@roselmamendes/viol%C3%AAncias-contra-as-mulheres-ed44b0dc8711",
-  "imagem":"/assets/images/elza-soares.jpeg",
-  "categoria": "Feminismo Interseccional"
-},
-{
-  "titulo": "[Python] Construindo aplicações web seguras [com Flask]",
-  "link": "https://medium.com/@roselmamendes/python-construindo-aplica%C3%A7%C3%B5es-web-seguras-com-flask-fe8989e282ac",
-  "imagem":"/assets/images/mr-robot.gif",
-  "categoria": "Tecnologia, Segurança"
-},
-{
-  "titulo": "Todas as pessoas deveriam saber o que é Segurança Digital",
-  "link": "https://medium.com/@roselmamendes/todas-as-pessoas-deveriam-saber-o-que-%C3%A9-seguran%C3%A7a-digital-59ea745a4763",
-  "imagem": "/assets/images/menina-negra-chiclete.jpeg",
-  "categoria": "Tecnologia, Segurança"
-}]
+    "titulo": "Mulheres Negras na Computação",
+    "link": "https://medium.com/@roselmamendes/mulheres-negras-na-computa%C3%A7%C3%A3o-35e4ec899a5f",
+    "categoria": "Mulher Negra, Mulher Negra Tecnologia, Computação, Racismo, Feminismo Negro"
+  }
+]
