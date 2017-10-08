@@ -8,15 +8,15 @@ permalink: /tec-negra/
 
 <div class="slider">
     <ul class="slides">
-{% for femNegra in site.data.feminina-negra %}
-    
+{% for femNegra in site.data.tecnologia-negra %}
+
       <li>
         <img src="{{femNegra.imagem}}">
         <div class="caption center-align">
           <h3><a class="pink-text text-lighten-4" href="{{femNegra.link}}" target="_blank">{{femNegra.titulo}}</a></h3>
         </div>
       </li>
-    
+
 {% endfor %}
     </ul>
 </div>
@@ -24,7 +24,7 @@ permalink: /tec-negra/
 </div>
 <div class="row main-section">
   <ul>
-  {% for femNegra in site.data.feminina-negra %}
+  {% for femNegra in site.data.tecnologia-negra %}
     <li class="post-item" style="margin-bottom: 15px">
       <a class="posts" href="{{femNegra.link}}" target="_blank">{{femNegra.titulo}}</a>
     </li>

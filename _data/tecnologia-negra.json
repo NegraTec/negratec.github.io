@@ -1,4 +1,8 @@
 [
+  {"titulo": "Octavia Butler, a ‘primeira dama da ficção científica’ que reescreveu o futuro",
+  "link": "https://www.geledes.org.br/octavia-butler-primeira-dama-da-ficcao-cientifica-que-reescreveu-o-futuro/",
+  "imagem": "https://i0.wp.com/www.geledes.org.br/wp-content/uploads/2017/10/http-2F2Fo.aolcdn.com2Fhss2Fstorage2Fmidas2Fd204c34cbb138e2319c35936f700452e2F2057393292Foctavia_butlerporCheungChingMing.jpg?w=630&ssl=1"
+  },
   {"titulo": "[Afrofuturismo] Ancestralidade e protagonismo de rosto africano",
   "link": "https://medium.com/revista-subjetiva/afrofuturismo-ancestralidade-e-protagonismo-de-rosto-africano-e033e029b241",
   "imagem": "https://cdn-images-1.medium.com/max/2000/1*Ruj0Flr-gVdRIs2-o_a7-A.jpeg"
@@ -24,10 +28,5 @@
     "titulo": "Ciência e tecnologia é coisa de preto",
   "link": "http://vaidape.com.br/2017/03/coisa-de-preto/",
   "imagem":"/assets/images/coisa-de-preto.jpg"
-  },
-  {
-    "titulo": "Oficina #MinasProgramam + #PretaLab, no Olabi Makerspace.",
-  "link": "http://minasprogramam.com/projetos/wordpretas/",
-  "imagem":"/assets/images/wordpretas.png"
   }
 ]
