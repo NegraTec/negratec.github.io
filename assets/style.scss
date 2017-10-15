@@ -8,23 +8,46 @@ $cor-fundo-botao:  #ffccbc;
 $cor-linha-contorno-nav-bar: grey;
 $cor-texto-post: #424242;
 
-.img-post{
-  width: 100%;
-}
+
 
 #mobile-evento{
   display: none;
 }
 
+.img-post{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.post-footer{
+  border-bottom: 5px dashed $cor-fundo-nav-bar;
+}
+
 .post{
   font-family: "Times New Roman", Times, serif;
   color: $cor-texto-post;
-  display: inline;
-  border-bottom: 5px dashed $cor-fundo-nav-bar;
+  display: block;
   padding-bottom: 10px;
+  width: 75%;
+  margin: 0 auto;
+
+  .img-descricao{
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .compartilhe{
+    margin-left: 0;
+  }
+
+  h4{
+    font-family: Arial;
+    color: black;
+  }
+
   p{
-    font-size: 21px !important;
     text-align: justify;
+    font-size: 21px !important;
   }
 
   a{
@@ -41,7 +64,7 @@ $cor-texto-post: #424242;
   }
 
   .img-normal{
-    max-width: 500px;
+    max-width: 90%;
     max-height: 400px;
     border-radius: 10px;
     display: block;
@@ -58,11 +81,27 @@ $cor-texto-post: #424242;
   }
 
   .gist{
-    width: 70%;
     margin-right: auto;
     margin-left: auto;
   }
 
+  .highlight {//copiando do site http://rouge.jneen.net/
+    .n{
+      color: #8959A8;
+    }
+    border: 1px solid #f7bdc7;
+    border-radius: 3px;
+    line-height: 1.5;
+  }
+
+}
+
+#assinatura{
+  display: block;
+}
+
+#assinatura-mobile{
+  display: none;
 }
 
 .banner-img{
@@ -168,6 +207,18 @@ nav, .nav-wrapper{
 
 @media all and (max-width: 420px){
 
+  #assinatura{
+    display: none;
+  }
+
+  #assinatura-mobile{
+    display: block;
+  }
+
+  .post{
+    width: 100%;
+  }
+
   .slider{
     display: none;
   }
@@ -237,10 +288,6 @@ nav, .nav-wrapper{
     background: url('/assets/images/black-girl-magic.jpeg') center no-repeat;
     background-clip: border-box;
     background-size: cover;
-  }
-
-  i{
-    background-color: rgba(140, 114, 114, 0.42);
   }
 
   .banner{
