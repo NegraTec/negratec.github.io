@@ -3,7 +3,7 @@ layout: post
 title:  "Docker no desenvolvimento web (node)"
 date:   2017-10-12 19:09:10 +0000
 categories: desenvolvimento
-image: /assets/images/docker-desenvolvimento-web/group_5622_0.png
+image: https://www.docker.com/sites/default/files/group_5622_0.png
 excerpt: ""
 comments: true
 ---
