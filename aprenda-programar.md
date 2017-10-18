@@ -4,7 +4,7 @@ title: Negra Tec - aprenda uma profissão na Computação
 permalink: /aprenda-programar
 ---
 <table id="normal-evento">
-  <td class="post"><img class="img-normal" src="/assets/images/negras-em-frente-pc-medium.jpg"/></td>
+  <td><img class="img-programar" src="/assets/images/negras-em-frente-pc-medium.jpg"/></td>
   <td style="padding-left: 10px;">
     <b>O que</b>
 
