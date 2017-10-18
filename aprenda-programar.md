@@ -50,8 +50,7 @@ Aprenda os primeiros passos para ser uma desenvolvedora web.
 
 Aprenda conceitos e construa um site com a ajuda de mentoras. O objetivo da oficina é que as mulheres construam seu próprio site em um dia.
 
-Quer ensinar ou aprender acompanhe aqui.
-
-##### Em breve mais informações.
+##### Quer ajudar no evento: <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">aqui</a>
+##### Quer aprender: em breve.
 
 <a href="mailto:roselma.mendes@gmail.com">Contato</a>
