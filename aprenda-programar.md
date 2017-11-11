@@ -8,11 +8,11 @@ permalink: /aprenda-programar
   <td style="padding-left: 10px;">
     <b>O que</b>
 
-    <p>uma série de atividades voltadas para o ensino do desenvolvimento de programas de computador com foco na população negra feminina.</p>
+    <p>uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.</p>
 
     <b>Para quem</b>
 
-    <p>um programa voltado para mulheres e adolescentes negras que não tem contato com programação ou que não sabem por onde começar.</p>
+    <p>um programa voltado para mulheres e adolescentes negras.</p>
   </td>
 </table>
 
@@ -20,11 +20,11 @@ permalink: /aprenda-programar
   <div class="post"><img class="img-normal" src="/assets/images/negras-em-frente-pc-medium.jpg"/></div>
   <b>O que</b>
 
-  <p>uma série de atividades voltadas para o ensino do desenvolvimento de programas de computador com foco na população negra feminina.</p>
+  <p>uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.</p>
 
   <b>Para quem</b>
 
-  <p>um programa voltado para mulheres e adolescentes negras que não tem contato com programação ou que não sabem por onde começar.</p>
+  <p>um programa voltado para mulheres e adolescentes negras.</p>
 </div>
 
 <b>Objetivo</b>
@@ -42,15 +42,9 @@ permalink: /aprenda-programar
 
 ##### Para Mulheres Negras.
 
-##### Recife - em novembro - aprenda como páginas na Internet são feitas
+##### Recife
 
-Aprenda os primeiros passos para ser uma desenvolvedora web.
-
-<b>Desenvolvedora web</b> é uma pessoa que constroe sites, sistemas que são usados na Internet e/ou disponíveis em uma rede.
-
-Aprenda conceitos e construa um site com a ajuda de mentoras. O objetivo da oficina é que as mulheres construam seu próprio site em um dia.
-
-##### Quer ajudar no evento: <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">aqui</a>
-##### Quer aprender: em breve.
+##### Quer ensinar? <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">aqui</a>
+##### Quer aprender? em breve.
 
 <a href="mailto:roselma.mendes@gmail.com">Contato</a>
