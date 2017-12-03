@@ -3,7 +3,7 @@ layout: landing
 title: NegraTec - tecnologia para empoderar Mulheres Negras
 image: "https://negratec.github.io/assets/images/negratec-logo.png"
 excerpt: "prover para as mulheres negras cursos que envolvam ensinar ferramentas e/ou o fazer tecnologias, para seu empoderamento"
-permalink: /projeto-negratec
+permalink: /projeto-negratec.html
 ---
   <script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
