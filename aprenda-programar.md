@@ -47,7 +47,7 @@ um programa voltado para mulheres e adolescentes negras.
 
 ##### Recife
 
-##### <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">Quer ensinar?</a>
+##### <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">Quer ajudar?</a>
 ##### Quer aprender? 
 <iframe style="width: 80%; margin-left: 9.5%" src="https://docs.google.com/forms/d/e/1FAIpQLSelpA_l0IvOB_CuUIx84JfiPCg4B9nio0onXK1gT3pfVX_-7A/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
