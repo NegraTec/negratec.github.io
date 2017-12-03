@@ -44,4 +44,4 @@ um programa voltado para mulheres e adolescentes negras.
 ##### Quer ensinar? <a href="https://goo.gl/forms/75MNZ2VgiQD0FRri1" target="_blank">aqui</a>
 ##### Quer aprender? <a href="https://goo.gl/forms/wFYEDpLnQtldA6p42" target="_blank">aqui</a>.
 
-<a href="mailto:roselma.mendes@gmail.com">Contato</a>
+<a href="mailto:negratec@gmail.com">Entre em contato com a gente</a>
