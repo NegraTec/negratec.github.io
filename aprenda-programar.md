@@ -1,23 +1,21 @@
 ---
 layout: landing
-title: Negra Tec - aprenda uma profissão na Computação
-permalink: /aprenda-programar
+title: NegraTec - tecnologia para empoderar Mulheres Negras
+permalink: /projeto-negratec
 ---
-<table id="normal-evento">
-  <td><img class="img-programar" src="/assets/images/negras-em-frente-pc-medium.jpg"/></td>
-  <td style="padding-left: 10px;">
-    <b>O que</b>
+<i class="missao-negratec">prover para as mulheres negras cursos que envolvam ensinar ferramentas e/ou o fazer tecnologias, para seu empoderamento.</i>
 
-    <p>uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.</p>
+<img class="img-negratec" src="assets/images/negratec-logo.png" />
 
-    <b>Para quem</b>
+<b>O que</b>
 
-    <p>um programa voltado para mulheres e adolescentes negras.</p>
-  </td>
-</table>
+uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.
+
+<b>Para quem</b>
+
+um programa voltado para mulheres e adolescentes negras.
 
 <div id="mobile-evento">
-  <div class="post"><img class="img-normal" src="/assets/images/negras-em-frente-pc-medium.jpg"/></div>
   <b>O que</b>
 
   <p>uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.</p>
@@ -29,18 +27,17 @@ permalink: /aprenda-programar
 
 <b>Objetivo</b>
 
-> <li>empoderar mulheres e adolescentes negras através da Computação;</li>
+<li>empoderar mulheres e adolescentes negras através da Computação;</li>
 
-> <li>ajudar mulheres e adolescentes negras a se indentificar com uma profissão voltada para Computação;</li>
+<li>ajudar mulheres e adolescentes negras a se indentificar com uma profissão voltada para Computação;</li>
 
-> <li>criar uma rede de mulheres e adolescentes negras na Computação: as que querem aprender e as que querem ensinar.</li>
+<li>criar uma rede de mulheres e adolescentes negras na Computação: as que querem aprender e as que querem ensinar.</li>
 
 <b>O que não é</b>
 
-> <li>um evento pago;</li>
+<li>um evento pago;</li>
 
-
-##### Para Mulheres Negras.
+<div style="border-top: 5px dashed #8d6e63; margin-top: 15px;"></div>
 
 ##### Recife
 
