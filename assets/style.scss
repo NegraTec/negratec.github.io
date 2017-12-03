@@ -194,6 +194,13 @@ nav, .nav-wrapper{
   }
 }
 
+.footer-negratec {
+@extend .footer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: none;
+}
+
 .sobre{
   margin-bottom: 10px;
   display: block;

@@ -7,6 +7,12 @@ permalink: /projeto-negratec
 
 <img class="img-negratec" src="assets/images/negratec-logo.png" />
 
+<div class="footer-negratec">
+	<a target="_blank" href="https://twitter.com/negratec"><img src="/assets/images/Twitter-icon.png"></a>
+	<a target="_blank" href="https://facebook.com/negratec"><img src="/assets/images/Facebook-Icon.png"></a>
+	<a target="_blank" href="mailto:negratec@gmail.com"><img src="/assets/images/Gmail-icon.png"></a>
+</div>
+
 <b>O que</b>
 
 uma série de atividades para ajudar a população negra feminina a tirar proveito das possibilidades da Computação.
@@ -45,4 +51,8 @@ um programa voltado para mulheres e adolescentes negras.
 ##### Quer aprender? 
 <iframe style="width: 80%; margin-left: 9.5%" src="https://docs.google.com/forms/d/e/1FAIpQLSelpA_l0IvOB_CuUIx84JfiPCg4B9nio0onXK1gT3pfVX_-7A/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
 
-<a href="mailto:negratec@gmail.com">Entre em contato com a gente</a>
+<div class="footer-negratec">
+	<a target="_blank" href="https://twitter.com/negratec"><img src="/assets/images/Twitter-icon.png"></a>
+	<a target="_blank" href="https://facebook.com/negratec"><img src="/assets/images/Facebook-Icon.png"></a>
+	<a target="_blank" href="mailto:negratec@gmail.com"><img src="/assets/images/Gmail-icon.png"></a>
+</div>
