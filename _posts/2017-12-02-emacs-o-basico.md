@@ -14,7 +14,6 @@ published: true
 
 O Emacs (estou suprimindo o GNU) funciona na maior parte dos sistemas operacionais conhecidos, como Mac OS, Windows e Linux. E você pode customizar seu Emacs tanto usando [major modes](https://www.gnu.org/software/emacs/manual/html_node/emacs/Major-Modes.html#Major-Modes) como criando customizações com a linguagem Lisp, na qual GNU Emacs é feito.
 
-<img class="img-pequena-esquerda" src="https://www.unixstickers.com/image/data/stickers/emacs/Emacs-icon.sh.png"/>
 O seu uso é geralmente por teclado (atalhos). O uso do mouse é desencorajado. Acredito que por isso, e pela proposta de uma interface que diminui o número de interrupções ao longo da escrita, é que o GNU Emacs é amplamente usado pela comunidade de tecnologia. Assim como seu concorrente o [Vim](http://www.vim.org/).
 
 Dá pra fazer de um tudo um pouco no Emacs: [abrir sites](https://www.emacswiki.org/emacs/CategoryWebBrowser), [usar o Spotify](https://github.com/krisajenkins/helm-spotify), [executar linha de comando](http://www.nongnu.org/emacsdoc-fr/manuel/shell.html), [escrever livros](https://www.masteringemacs.org/article/how-to-write-a-book-in-emacs), artigos, e claro escrever código, etc. Esse post eu fiz todo usando Emacs.
