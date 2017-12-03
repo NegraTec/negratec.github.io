@@ -104,5 +104,3 @@ Além de termos recentemente os dois livros de Angela Davis traduzidos no Brasil
 <hr>
 
 Coincidentemente, Amor e Espiritualidade, têm sido dois temas que pessoalmente tenho procurado, e ter esses dois tópicos entrelaçados com os tópicos feministas, me ajudam a moldar os meus pensamentos de mim e sobre a sociedade.
-
-<hr>
